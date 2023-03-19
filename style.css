@@ -1,0 +1,175 @@
+* {
+margin: 0px;
+
+
+}
+
+
+.header {
+
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 935px;
+    top: 30px;
+    color: #FFFFFF;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 3vh;
+
+
+
+}
+
+
+
+
+.main_text {
+    position: absolute;
+    max-width: 450px;
+    height: 29px;
+    left: 870px;
+    top: 342px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8vw;
+    line-height: 3vh;
+    color: #FFFFFF;
+
+
+
+}
+
+
+.main_text1 {
+    position: absolute;
+    max-width: 418px;
+    height: 66px;
+    left: 800px;
+    top: 391px;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 3vh;
+    
+
+    color: #B3B3B3;
+
+
+}
+.img_btn {
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 490px 30px 15px 910px;
+    outline: none;
+    border: none;  
+    border-radius: 4px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    background-color: #53565a;
+    box-shadow: 0 2px #38393a;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    touch-action: manipulation;  
+    vertical-align: top;
+    left: 900px;
+    right: 100px;
+    top: 100px;
+    transition: 2s;
+  
+}
+
+.img_btn:hover {
+    background-color: #343536;
+    transition: 2s;
+
+
+}
+
+body {
+ background-image: url(pixel_fon.png);
+ background-color: #444040;
+ background-size: 1920px 1010px;
+}
+
+
+
+@media  (max-width: 1024px ) {
+    .header {
+       left: 350px;
+
+
+    }
+       
+
+
+    
+}
+
+@media  (max-width: 400px ) {
+    
+       .header {
+          left: 150px;
+          font-size: 4vw;
+
+       }
+        .main_text {
+
+            left: 120px;
+            font-size: 5vw;
+        }
+        .main_text1 {
+            left: 20px;
+            font-size: 4vw;
+
+
+        }
+        .img_btn {
+            margin: 490px 30px 15px 90px;
+
+
+        }
+
+
+       
+}
+
+
+@media  (max-width: 800px ) {
+    
+    .header {
+       left: 150px;
+       font-size: 4vw;
+
+    }
+     .main_text {
+
+         left: 120px;
+         font-size: 5vw;
+     }
+     .main_text1 {
+         left: 20px;
+         font-size: 4vw;
+
+
+     }
+     .img_btn {
+         margin: 490px 30px 15px 90px;
+
+
+     }
+
+
+    
+}
